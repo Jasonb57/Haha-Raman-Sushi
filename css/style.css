@@ -1,0 +1,130 @@
+/* responsive */
+
+
+.grid-x{
+ border: black;
+}
+.cell{
+  border: black;
+  color: rgb(26, 113, 114);
+
+}
+body {
+  background-color: rgb(222, 210, 153);
+
+}
+p{
+  color: #e9d8dc;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.0em;
+  font-family:'Kavoon', cursive;
+}
+h2{
+  color: #e9d8dc;
+  font-family: 'Actor', sans-serif;
+}
+h3{
+  color: white;
+  font-family: 'Kalam', cursive;
+}
+
+img{
+  margin:80px auto;
+
+}
+nav {
+  width: 100%;
+  margin: 10px auto;
+  background-color:  rgb(65,20,27);
+  padding: 15px;
+}
+
+nav li {
+  display:  inline-block;
+  font-family: 'Actor', sans-serif;
+  font-size: 1.0em;
+
+
+}
+nav li a:link, nav li a:visited {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  margin: 5px auto;
+  border-radius: 1.5px;
+}
+nav li a:hover {
+  background-color: black;
+
+}
+nav>ul>li>a:active {
+  color: gray;
+}
+footer,ul,img{
+  font-family:  'Actor', sans-serif;
+  font-size: 1.5em;
+  line-height: 2.0em;
+
+}
+
+.tintbox{
+  background-color: rgb(65,20,27); opacity:.9;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.tinbox{
+background-color: rgb(65, 20, 27); opacity: .8;
+}
+
+
+/* responsive */
+
+/* img */
+body{
+  background-image: url(../imgs/plate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  filter: saturate(1);
+}
+/* img */
+
+
+div.left {
+text-align: left;
+}
+
+div.right {
+text-align: right;
+}
+
+/* NAV STYLE */
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  text-align: center;
+  margin-right: 1.7em;
+  font-size: .9em;
+  borde-radius: 3em;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}

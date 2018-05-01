@@ -1,0 +1,84 @@
+.grid-container{
+ padding: 10px auto;
+}
+.grid-x{
+ border: black;
+}
+.cell{
+  border: black;
+  color: rgb(26, 113, 114);
+
+}
+body {
+  background-color: rgb(222, 210, 153);
+
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.0em;
+  font-family:'Kavoon', cursive;
+}
+h2{
+  color: #e9dadc;
+  font-family: 'Actor', sans-serif;
+}
+h3{
+  color: #e9dadc;
+  font-family: 'Kalam', cursive;
+}
+h4{
+  font-size: 1.9em;
+  font-family: 'Kalam', cursive;
+}
+
+img{
+  margin:80px auto;
+
+}
+nav {
+  width: 100%;
+  margin: 10px auto;
+  background-color:  rgb(65,20,27);
+  padding: 15px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  display:  inline-block;
+  font-family: 'Actor', sans-serif;
+  font-size: 1.0em;
+
+
+}
+nav li a:link, nav li a:visited {
+  text-decoration: none;
+  background-color: black;
+  color: #e9dadc;
+  padding: 5px 5px;
+  margin: 5px auto;
+  border-radius: 1.5px;
+}
+nav li a:hover {
+  background-color: black;
+
+}
+nav>ul>li>a:active {
+  color: gray;
+}
+footer,ul,img{
+  font-family:  'Actor', sans-serif;
+  font-size: 1.5em;
+  line-height: 2.0em;
+
+}
+
+.tintbox{
+background-color: rgb(65,20,27); opacity:.9;
+  width: 30%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
