@@ -1,0 +1,136 @@
+.logo {
+  font-family: 'Kavoon', cursive;
+  font-size: 4em;
+  text-align: center;
+  color: #e9dadc;
+}
+.logoback {
+  background color: rgb(122, 124, 124);
+}
+.mainimage {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: grey;
+}
+
+.image {
+
+}
+
+h2 {
+font-family: 'Kavoon', cursive;
+}
+nav {
+
+}
+li {
+  display: inline;
+  list-style-type: none;
+}
+li.nav {
+  font-size: 1.8em;
+  margin-right: 16%;
+  font-family: 'Kalam', cursive;
+}
+.padtop {
+  padding-top: 2%
+}
+.empty {
+  height: 10em;
+}
+.emptytwo {
+  height: 15em;
+}
+.center {
+  text-align: center;
+}
+.menulink {
+  padding: 5%;
+  border-radius: 30%;
+  background-color: rgb(59, 23, 28);
+  font-size: 1em;
+  color: #e9dadc;
+}
+.navlink {
+  background-color: rgba(222, 210, 153, 95);
+  border-radius: 30%;
+}
+.yellowish {
+  background-color: rgba(59, 23, 28, .9);
+}
+.solidbackground {
+  background-color: black;
+  border: grey, 3px;
+}
+.footer {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: 'Actor', sans-serif;
+  color: #e9dadc;
+}
+a {
+  color: black;
+}
+/* h2 a:hover {
+  background-color: rgba(116, 10, 10, 20);
+  color: rgba(255, 255, 255, 95);
+}
+nav li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.smolfooter {
+font-size: 1.2em;
+text-align: center;
+color: #e9dadc;
+} */
+/* font-family: 'Kalam', cursive;
+font-family: 'Kavoon', cursive;
+font-family: 'Actor', sans-serif; */
+
+
+nav {
+  width: 100%;
+  margin: 10px auto;
+  background-color: rgba(59, 23, 28, .9);
+  padding: 15px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  display:  inline-block;
+  font-family: 'Actor', sans-serif;
+  font-size: 1.0em;
+
+
+}
+nav li a:link, nav li a:visited {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .5);
+  color: #e9dadc;
+  padding: 5px 5px;
+  margin: 5px auto;
+  border-radius: 1.5px;
+}
+nav li a:hover {
+  background-color: black;
+}
+h2 a:hover {
+  color: #e9dadc;
+  background-color: rgb(59, 23, 28);
+  text-decoration: underline;
+}
+
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+#hello{color:red; height:400px;}
+
+
+
+}
