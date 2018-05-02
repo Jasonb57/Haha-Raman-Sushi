@@ -88,8 +88,7 @@ background-color: rgb(65, 20, 27); opacity: .8;
 /* img */
 body{
   background-image: url(../imgs/plate.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   background-position: center 70%;
   filter: saturate(1);
 }
@@ -131,3 +130,29 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+
+/* sticky navbar */
+/* body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+} */
