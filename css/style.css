@@ -95,6 +95,9 @@ body{
 }
 /* img */
 
+#line-height {
+  line-height: 15px;
+}
 
 div.left {
 text-align: left;
