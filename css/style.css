@@ -20,7 +20,7 @@ h1{
   color: white;
   text-align: center;
   font-size: 3em;
-  line-height: 1.0em;
+  line-height: 2.0em;
   font-family:'Kavoon', cursive;
 }
 h2{
@@ -84,10 +84,74 @@ background-color: rgb(65, 20, 27); opacity: .8;
 
 /* responsive */
 
+/* title imgs */
+#appetizer{
+
+  background-image: url(../imgs/appetizer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#salads{
+
+  background-image: url(../imgs/salad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#raman{
+
+  background-image: url(../imgs/raman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nigirisushi{
+
+  background-image: url(../imgs/nigirisushi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#maki{
+
+  background-image: url(../imgs/maki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#handroll{
+
+  background-image: url(../imgs/handroll.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#specialroll{
+
+  background-image: url(../imgs/specialroll.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sd{
+
+  background-image: url(../imgs/sd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#skewers{
+
+  background-image: url(../imgs/skewers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#desserts{
+
+  background-image: url(../imgs/desserts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* title imgs */
+
 /* img */
 body{
-  background-image: url(../imgs/plate.jpg);
-  background-repeat: repeat;
+  background-image: url(../imgs/plate.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center 70%;
   filter: saturate(1);
 }
