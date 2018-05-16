@@ -145,6 +145,13 @@ background-color: rgb(65, 20, 27); opacity: .8;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#beverages{
+
+  background-image: url(../imgs/beverages.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* title imgs */
 
 /* img */
