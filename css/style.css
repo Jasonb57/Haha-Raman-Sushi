@@ -154,6 +154,10 @@ background-color: rgb(65, 20, 27); opacity: .8;
 }
 /* title imgs */
 
+#float-right{
+  float: right;
+}
+
 /* img */
 body{
   background-image: url(../imgs/plate.png);
