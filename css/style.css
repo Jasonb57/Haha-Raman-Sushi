@@ -6,11 +6,9 @@
 }
 .cell{
   border: black;
-  color: rgb(26, 113, 114);
+  color: #e9d8dc;
 
 }
-body {
-  background-color: rgb(222, 210, 153);
 
 }
 p{
@@ -188,6 +186,42 @@ nav ul {
 }
 nav li {
   display: inline;
+}
+
+.logo{
+  padding: 5px 15px 0 15px;
+  border: 6px groove rgb(0, 0, 0);
+  background-color: black;
+  text-align: center;
+  display: table;
+  margin: 50px auto 20px auto;
+}
+a{
+  color: white;
+}
+a:hover {
+  color: rgb(65,20,27);
+}
+
+/* back to top buttom */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 70px;
+  z-index: 1;
+  font-size: 18px;
+  background-color: #17171c;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 4px;
+  opacity: 0.8
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /* sticky navbar */

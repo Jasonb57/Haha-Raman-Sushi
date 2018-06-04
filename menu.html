@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jibiao Li's portfolio">
-    <title>Homepage - Jibiao Li's Portfolio</title>
+    <meta name="description" content="HAHA Sushi Raman">
+    <title>Menu Page - HAHA Sushi Raman</title>
     <!-- NEED FOR ZURB -->
     <link rel="stylesheet" href="css/foundation.css"><!-- ////ROW 1//// -->
     <link rel="stylesheet" href="css/app.css">
@@ -19,7 +19,13 @@
   </head>
 
   <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <header class="grid-x grid-Y">
+      <div class="logo">
+        <h1><a href="index.html"><center>Haha Ramen Sushi</center></a></h1>
+      </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -789,20 +795,22 @@
 
     </footer>
 
-    <!-- <script>
-    window.onscroll = function() {myFunction()};
+    <script>
+    window.onscroll = function() {scrollFunction()};
 
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
+    function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
     }
-    </script> -->
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
 
   </body>
 
