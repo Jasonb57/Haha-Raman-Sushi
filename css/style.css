@@ -23,11 +23,17 @@ h1{
 }
 h2{
   color: #e9d8dc;
-  font-family: 'Actor', sans-serif;
+  font-family:'Kavoon', cursive;
 }
 h3{
-  color: white;
-  font-family: 'Kalam', cursive;
+  color: #e9d8dc;
+  font-family: 'Actor', sans-serif;
+  text-align: center;
+}
+h4{
+  font-size: 0.8em;
+  color: #e9d8dc;
+  font-family:'Actor', sans-serif;
 }
 
 img{
